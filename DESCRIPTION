@@ -1,0 +1,17 @@
+Package: milestones
+Title: Milestone and bar-timeline graphics from table data
+Version: 0.1.0.0
+Authors@R: 
+    person("Kim", "Bridges", , "kim.bridges@gmail.com", role = c("aut", "cre"))
+Description: Uses a table-oriented input design to specify the
+    layout and graphic properties of milestone and bar-timeline
+    graphics. These charts tie in nicely with presentation
+    tables. These functions work inside the "ggplot2" universe.
+License: MIT + file LICENSE
+URL: https://kim.quarto.pub/milestones--bar-timelines
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2
